@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta el Temps d'alguna d'aquestes poblacions:</title>
+
+    <!-- Disseny Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container mt-5">
+    <h1 class="text-center text-primary">Consulta el temps a Catalunya</h1>
+    <p class="text-center">Selecciona una població per veure el temps actual.</p>
+
+    <!-- Formulari -->
+    <form action="temps.php" method="POST">
+        <div class="form-group">
+            <label for="poblacio">Escull una població:</label>
+            <select class="form-control" id="poblacio" name="poblacio">
+                <option value="Barcelona">Barcelona</option>
+                <option value="Girona">Girona</option>
+                <option value="Tarragona">Tarragona</option>
+                <option value="Lleida">Lleida</option>
+                <option value="Mataró">Mataró</option>
+                <option value="Badalona">Badalona</option>
+                <option value="Sabadell">Sabadell</option>
+                <option value="Terrassa">Terrassa</option>
+                <option value="Reus">Reus</option>
+                <option value="Manresa">Manresa</option>
+                <option value="Igualada">Igualada</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Consultar</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
