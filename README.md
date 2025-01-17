@@ -1,2 +1,2 @@
-# apiTiempo
-App sencilla de previsión del tiempo con PHP.
+# apiOpenWeather
+App sencilla de previsión del tiempo en PHP con https://openweathermap.org/
